@@ -132,6 +132,7 @@ Siemens marka PLC'lerden veri iletmek için kullanılan protokoldür. Ethernet �
 - **Availability:** Planlanan üretim zamanında ne kadar üretim yaptığını belirten faktör.
 - **Performance:** Ekipmanın maksimum potansiyeline oranla ne kadar üretim yaptığını belirtir
 - **Quality:** Üzerinde yeniden işlem yapmayı gerektirmeyen iyi kalitede üretilen ürünleri belirtir
+  
 OEE = Availability x Performance x Quality
 
 OEE iyileştirmenin faydaları:
