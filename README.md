@@ -6,6 +6,7 @@ Nasıl çalışıyor sorusuna odaklanır.
 
 #### Bileşenleri:
 RTU: Sensör ve aktüatörlerle iletişim kurar ve veri toplar.
+
 PLC: Sensörden gelen veriyi otomatize eden endüstriyel bilgisayar.
 Master Station: Verilerin toplandığı, işlendiği ve görselleştirdiği merkez birim.
 
