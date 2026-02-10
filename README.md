@@ -45,19 +45,16 @@ Olası arıza için bir kayıt oluşturulur ve bildirilir.
 Bir fabrikada üretim hattında bulunan montaj makinelerinden alınan veri ile:
 
 SCADA makineden sıcaklık verisini alır.
-
 		PLC aracılığı ile master station'a veriyi iletir ve görselleştirilir.
 		Örnek: Sicaklik:110;Durum:1
-MES, SCADA'dan gelen bu veri ile ne kadar ürün üretildiğini tespit eder.
-
-		Makinenin her başarılı hareketini 1 üretilmiş parça olarak kabul eder.
 		
+MES, SCADA'dan gelen bu veri ile ne kadar ürün üretildiğini tespit eder.
+		Makinenin her başarılı hareketini 1 üretilmiş parça olarak kabul eder.
 		Toplam üretim sayısını analiz eder ve hedef sayı ile karşılaştırır.
 		Örnek: Uretim:200;Hata:2;Verimlilik:85
-MOM, SCADA'dan gelen veriyi analiz eder olası bir arıza tespit ettiyse arıza kaydı açılır. 
-
-		Makinenin sıcaklık aralığı bellidir, eğer aralığın dışında bir veri gelirse sorunun kaynağını analiz eder.
 		
+MOM, SCADA'dan gelen veriyi analiz eder olası bir arıza tespit ettiyse arıza kaydı açılır. 
+		Makinenin sıcaklık aralığı bellidir, eğer aralığın dışında bir veri gelirse sorunun kaynağını analiz eder.
 		Arıza kaydı oluşturur
 
 -----------------------------------------------
