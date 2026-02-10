@@ -29,9 +29,9 @@ Ne kadar üretildi sorusuna odaklanır.
 	- Elde edilen analizler ve veriler ile problemlere karşı çözümler üretilir.
 
 -----------------------------------
-### MAM:
+### MOM:
 İşletmede bulunan makinaların yaşam döngüsüne, bakım süreçlerine ve sağlığına odaklanır.
-MES sistemleri üretime odaklanırken MAM sistemleri ürünü üreten makinaların sağlığına odaklanır.
+MES sistemleri üretime odaklanırken MOM sistemleri ürünü üreten makinaların sağlığına odaklanır.
 
 #### Çalışma Mantığı:
 SCADA ve cihazlardan gelen anlık verileri sisteme aktarır.
@@ -50,7 +50,7 @@ MES, SCADA'dan gelen bu veri ile ne kadar ürün üretildiğini tespit eder.
 		Makinenin her başarılı hareketini 1 üretilmiş parça olarak kabul eder.
 		Toplam üretim sayısını analiz eder ve hedef sayı ile karşılaştırır.
 		Örnek: Uretim:200;Hata:2;Verimlilik:85
-MAM, SCADA'dan gelen veriyi analiz eder olası bir arıza tespit ettiyse arıza kaydı açılır. 
+MOM, SCADA'dan gelen veriyi analiz eder olası bir arıza tespit ettiyse arıza kaydı açılır. 
 		Makinenin sıcaklık aralığı bellidir, eğer aralığın dışında bir veri gelirse sorunun kaynağını analiz eder.
 		Arıza kaydı oluşturur
 
